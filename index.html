@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=9">
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta content="Calculate live currency and foreign exchange rates with this free currency converter." name='description'>
+	<title>Currency Converter</title>
+	<link href="styles/styles.css" rel="stylesheet" type="text/css">
+	<!--[if lte IE9]>
+	<link href="styles/ie-styles.css" rel="stylesheet" type="text/css">
+	<script src="script/ie-script.js></script>
+	<![endif]-->
+</head>
+
+<body>
+	<div class="header">
+		<p>Calculate live currency and foreign exchange rates with this free currency converter.</p>
+	</div>
+	<div class='main'>
+		<img srcset="img/background-640px.jpg 640w,
+		 		img/background-768px.jpg 770w,
+		 		img/background-1024px.jpg 1024w,
+		 		img/background-2000px.jpg 2000w" src="img/background-2000px.jpg" alt='Backgound image'>
+
+		<div class=' main-2'>
+			<h1>Online Currency Converter</h1>
+			<div class="converter">
+				<div class='input-area'>
+					<input autofocus id='currency-input-amount' name='amount' type='text'> <select id='currency-input' name='currency-input'>
+						<option value="EUR">
+							EUR
+						</option>
+						<option value="USD">
+							USD
+						</option>
+						<option value="RON">
+							RON
+						</option>
+						<option value="GBP">
+							GBP
+						</option>
+						<option value="RUB">
+							RUB
+						</option>
+						<option value="PLN">
+							PLN
+						</option>
+						<option value="CZK">
+							CZK
+						</option>
+						<option value="BGN">
+							BGN
+						</option>
+						<option value="DKK">
+							DKK
+						</option>
+						<option value="HUF">
+							HUF
+						</option>
+					</select>
+				</div><img alt="Equal" class="equal" src="png/equal.png">
+				<div class='output-area'>
+					<input id='currency-output-amount' name="currency-output" type='text'> <select id='currency-output' name='currency-input'>
+						<option value="EUR">
+							EUR
+						</option>
+						<option value="USD">
+							USD
+						</option>
+						<option value="RON">
+							RON
+						</option>
+						<option value="GBP">
+							GBP
+						</option>
+						<option value="RUB">
+							RUB
+						</option>
+						<option value="PLN">
+							PLN
+						</option>
+						<option value="CZK">
+							CZK
+						</option>
+						<option value="BGN">
+							BGN
+						</option>
+						<option value="DKK">
+							DKK
+						</option>
+						<option value="HUF">
+							HUF
+						</option>
+					</select>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<p>Exchange rates are taken from the offical site of the European Central Bank (ECB) and used for information purposes only. To update the exchange rates please reload the page.<br>
+			<span>Copyright &copy; 2018 Curs.md - All rights reserved</span></p>
+	</div>
+	<script src="script/script.js"></script>
+</body>
+
+</html>
